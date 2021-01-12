@@ -1,0 +1,41 @@
+.link_top{
+    background-color:lightgreen;
+    overflow: hidden;
+
+}
+.link_top a{
+text-decoration: none;
+color:black;
+font-size:22px;
+
+}
+.link_top li{
+    list-style-type: none;
+    padding:5px;
+    border-right: 1px solid blanchedalmond;
+    display:inline-block;
+    margin:5px;
+}
+.link_top a{
+  
+    padding: 10px;
+    text-align: center;
+}
+.link_top a:hover{
+    opacity: .5;
+    border-bottom: 5px solid blue;
+   
+}
+.link_top li:last-child{
+    float:right;
+    border-right:none;
+}
+@media screen and (max-width: 600px) {
+    .link_top li {
+        display: block;
+        border-right: none;
+    }
+.link_top li:last-child{
+    float:left;
+}
+}
